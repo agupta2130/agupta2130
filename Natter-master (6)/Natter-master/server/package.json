@@ -1,0 +1,29 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "pm2 start app.cjs  && pm2 start gm.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@firebase/app": "^0.9.0",
+    "@firebase/auth": "^0.21.0",
+    "@firebase/firestore": "^3.8.0",
+    "@firebase/storage": "^0.10.0",
+    "axios": "^1.2.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "firebase": "^9.15.0",
+    "firebase-admin": "^11.4.0",
+    "gm": "^1.25.0",
+    "nodemon": "^2.0.15",
+    "pm2": "^5.2.2",
+    "request": "^2.88.2",
+    "socket.io": "^4.5.4"
+  }
+}
